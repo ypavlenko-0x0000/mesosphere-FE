@@ -84,7 +84,12 @@ function* findAndDeleteSaga() {
 
 function* findAndRunSaga({ payload: { app } }) {
 	const servers = yield select(serversSelector)
-	const availableServer = servers.find(server => !server.runnedApps || server.runnedApps.length < 2);
+	const emptyServer = servers.find(server => !server.runnedApps || server.runnedApps.length < 1);
+	const oneAppServer = servers.find(server => !server.runnedApps || server.runnedApps.length < 2);
+	
+	if (!emptyServer && !oneAppServer) return;
+
+	const availableServer = emptyServer || oneAppServer; 
 	if (availableServer) {
 		yield put({
 			type: SERVER_RUN_APP,

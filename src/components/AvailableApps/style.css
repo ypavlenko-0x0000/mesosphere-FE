@@ -1,0 +1,29 @@
+.availableApps {
+}
+
+.availableApps-title {
+	padding: 0 2rem 0;
+	color: #555;
+	margin-bottom: 1.2rem;
+}
+
+.availableApps-content {
+
+}
+
+.availableApps-app {
+	color: #fff;
+	background: #141414;
+	padding: 1rem 2rem 1rem;
+	margin-bottom: 0.1rem;
+	border-left: 0.3rem solid #000;
+	position: relative;
+}
+
+.availableApps-buttons {
+	position: absolute;
+	display: flex;
+	top: 1rem;
+	right: 0;
+	transform: translate(25%);
+}

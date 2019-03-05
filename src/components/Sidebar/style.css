@@ -1,0 +1,10 @@
+.sidebar {
+	background: #1e1e1e;
+	width: 20em;
+}
+
+.sidebar-buttons {
+	margin: 3em 1.5em ;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "mesosphere",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "classnames": "^2.2.6",
+    "moment": "^2.24.0",
+    "normalizr": "^3.3.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "flow-bin": "^0.94.0",
+    "redux-devtools": "^3.5.0"
+  }
+}

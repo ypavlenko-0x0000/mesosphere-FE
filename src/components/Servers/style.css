@@ -1,0 +1,56 @@
+.servers {
+	margin-top: 2rem;
+	color: #fff;
+	flex-grow: 1;
+}
+
+.servers-header {
+	padding: 0 2rem;
+}
+
+.servers-canvas {
+	display: grid;
+	grid-gap: 1.5rem;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 0 2rem;
+}
+
+.servers-item {
+	background: #1e1e1e;
+	height: 8.5rem;
+	border-radius: 3px;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: stretch; */
+}
+
+.servers-app {
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	transition: flex .5s ease;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	transition: height .5s;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.servers-app--half {
+	height: 50%;
+}
+
+.servers-app--half:last-child {
+	border-top: white 2px solid;
+}
+
+.servers-appTitle {
+	font-size: 1.1rem;
+	font-weight: 600
+}
+
+.servers-appAdded {
+	font-size: .8rem;
+}
